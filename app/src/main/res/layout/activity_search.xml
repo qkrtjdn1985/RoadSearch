@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:adjustViewBounds="true"
+        android:background="@drawable/road"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/frameLayout10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout11"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout15"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout15"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Button" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout11"
+            android:layout_width="80dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginBottom="60dp"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout10">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Button" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="94dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="123dp"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout14"
+            app:layout_constraintEnd_toStartOf="@+id/frameLayout13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout11">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Button" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="152dp"
+            android:layout_marginEnd="109dp"
+            android:layout_marginBottom="180dp"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/frameLayout12"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Button" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="75dp"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout15"
+            app:layout_constraintEnd_toStartOf="@+id/frameLayout16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout12">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Button" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="107dp"
+            android:layout_marginEnd="115dp"
+            android:layout_marginBottom="54dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/frameLayout18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout14">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Button" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="127dp"
+            android:layout_marginBottom="162dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/frameLayout14"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout13">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Button" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="303dp"
+            android:layout_marginBottom="106dp"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout18"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout18"
+            app:layout_constraintStart_toEndOf="@+id/frameLayout13"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Button" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout18"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginBottom="85dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/frameLayout15"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout17">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Button" />
+        </FrameLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="길찾기"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/send"
+        />
+
+</LinearLayout>
